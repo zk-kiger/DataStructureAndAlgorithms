@@ -1,5 +1,7 @@
 package com.kiger.Link;
 
+import java.util.ArrayDeque;
+
 /**
  * @ClassName LinkQueue
  * @Description 链式队列实现
@@ -28,6 +30,11 @@ public class LinkQueue<T> {
     public LinkQueue() {
         front = null;
         rear = null;
+    }
+
+    public static void main(String[] args) {
+        ArrayDeque<String> stack = new ArrayDeque<>();
+        System.out.println(stack.peek());
     }
 
     public LinkQueue(T element) {

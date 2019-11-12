@@ -1,4 +1,4 @@
-package com.kiger.Demo;
+package com.kiger.binaryTree;
 
 import java.util.Scanner;
 import java.util.Stack;
